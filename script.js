@@ -1,4 +1,3 @@
-// complete this js code
 // Person Class
 class Person {
     constructor(name, age) {
