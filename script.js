@@ -1,4 +1,5 @@
 // complete this js code
+// Person Class
 class Person {
     constructor(name, age) {
         this.name = name;
@@ -6,12 +7,11 @@ class Person {
     }
 
     greet() {
-        console.log(Hello, my name is ${this.name} and I am ${this.age} years old.); 
-
+        console.log(Hello, my name is ${this.name} and I am ${this.age} years old.); // ✅ Fixed format
     }
 }
 
-
+// Employee Class (Inheriting from Person)
 class Employee extends Person {
     constructor(name, age, jobTitle) {
         super(name, age);
